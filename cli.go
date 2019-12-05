@@ -3,6 +3,7 @@ package xgoinstall
 import (
 	"flag"
 	"fmt"
+	"golang.org/x/xerrors"
 	"io"
 	"log"
 )
@@ -20,5 +21,32 @@ func Run(argv []string, outStream, errStream io.Writer) error {
 		fmt.Fprintf(fs.Output(), "Usage of %s:\n", nameAndVer)
 		fs.PrintDefaults()
 	}
+
+	var (
+		ver             = fs.Bool("version", false, "display version")
+		nullTerminators = fs.Bool("0", false, "use NULs as input field terminators")
+	)
+
+	if err := fs.Parse(argv); err != nil {
+		return err
+	}
+	if *ver {
+		return printVersion(outStream)
+	}
+
+	argv = fs.Args()
+	if len(argv) >= 1 {
+		return xerrors.New("We have no subcommand")
+	}
+
+	if *nullTerminators {
+		fmt.Fprintf(outStream, "null terminator input")
+	}
+
 	return nil
+}
+
+func printVersion(out io.Writer) error {
+	_, err := fmt.Fprintf(out, "%s v%s (rev:%s)\n", cmdName, version, revision)
+	return err
 }
