@@ -23,13 +23,6 @@ func Run(argv []string, data []byte, outStream, errStream io.Writer) error {
 		fs.PrintDefaults()
 	}
 
-	// Fix it
-	if len(data) > 0 {
-		fmt.Printf("stdin data: %v\n", string(data))
-	} else {
-		fmt.Print("no stdin")
-	}
-
 	var (
 		ver             = fs.Bool("version", false, "display version")
 		nullTerminators = fs.Bool("0", false, "use NULs as input field terminators")
@@ -45,6 +38,13 @@ func Run(argv []string, data []byte, outStream, errStream io.Writer) error {
 	argv = fs.Args()
 	if len(argv) >= 1 {
 		return xerrors.New("We have no subcommand")
+	}
+
+	// Fix it
+	if len(data) > 0 {
+		fmt.Printf("stdin data: %v\n", string(data))
+	} else {
+		fmt.Print("no stdin")
 	}
 
 	if *nullTerminators {
