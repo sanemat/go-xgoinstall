@@ -5,6 +5,8 @@ import (
 	"fmt"
 	"io"
 	"log"
+	"os/exec"
+	"strings"
 
 	"golang.org/x/xerrors"
 )
@@ -40,15 +42,26 @@ func Run(argv []string, data []byte, outStream, errStream io.Writer) error {
 		return xerrors.New("We have no subcommand")
 	}
 
-	// Fix it
-	if len(data) > 0 {
-		fmt.Printf("stdin data: %v\n", string(data))
-	} else {
-		fmt.Print("no stdin")
+	if len(data) == 0 {
+		return nil
 	}
 
+	var targets []string
 	if *nullTerminators {
-		fmt.Fprintf(outStream, "null terminator input")
+		targets = strings.Split(string(data), "\x00")
+	} else {
+		targets = strings.Fields(string(data))
+	}
+	for _, v := range targets {
+		cmd := exec.Command("go", "install", v)
+		stdout, err1 := cmd.Output()
+		if err1 != nil {
+			return err1
+		}
+		_, err2 := fmt.Fprint(outStream, string(stdout))
+		if err2 != nil {
+			return err2
+		}
 	}
 
 	return nil
