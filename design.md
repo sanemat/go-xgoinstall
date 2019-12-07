@@ -1,4 +1,4 @@
-# x-go-install
+# xgoinstall
 
 `x-go-install`
 

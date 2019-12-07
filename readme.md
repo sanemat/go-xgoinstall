@@ -1,4 +1,34 @@
-# x-go-install
+# xgoinstall
+
+`x-go-install`
+
+## Overview
+
+x-go-install = `xargs -I {} go install {}`.
+
+## Limitation
+
+Serial execution. Few options.
+
+## Usage
+
+```
+cat tools.go | grep _ | awk -F'"' '{print $$2}' | x-go-install
+```
+
+## Motivation
+
+We can use `xargs` only mac and unix.
+
+## Install
+
+### ghg
+
+`ghg get sanemat/go-xgoinstall`
+
+### go get
+
+`go get https://github.com/sanemat/go-xgoinstall/cmd/x-go-install`
 
 ## Design
 
