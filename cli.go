@@ -11,7 +11,7 @@ import (
 const cmdName = "x-go-install"
 
 // Run command
-func Run(argv []string, outStream, errStream io.Writer) error {
+func Run(argv []string, data []byte, outStream, errStream io.Writer) error {
 	log.SetOutput(errStream)
 	log.SetPrefix(fmt.Sprintf("[%s] ", cmdName))
 	nameAndVer := fmt.Sprintf("%s (v%s rev:%s)", cmdName, version, revision)
@@ -20,6 +20,13 @@ func Run(argv []string, outStream, errStream io.Writer) error {
 	fs.Usage = func() {
 		fmt.Fprintf(fs.Output(), "Usage of %s:\n", nameAndVer)
 		fs.PrintDefaults()
+	}
+
+	// Fix it
+	if len(data) > 0 {
+		fmt.Printf("stdin data: %v\n", string(data))
+	} else {
+		fmt.Print("no stdin")
 	}
 
 	var (
