@@ -2,10 +2,11 @@ package main
 
 import (
 	"flag"
-	"github.com/sanemat/go-xgoinstall"
 	"io/ioutil"
 	"log"
 	"os"
+
+	"github.com/sanemat/go-xgoinstall"
 )
 
 func main() {
@@ -14,13 +15,13 @@ func main() {
 	var err error
 	log.SetFlags(0)
 	fi, err = os.Stdin.Stat()
-	if err != nil && err != flag.ErrHelp {
+	if err != nil {
 		exitWithCode(err)
 	}
 
 	if (fi.Mode() & os.ModeCharDevice) == 0 {
 		data, err = ioutil.ReadAll(os.Stdin)
-		if err != nil && err != flag.ErrHelp {
+		if err != nil {
 			exitWithCode(err)
 		}
 	}

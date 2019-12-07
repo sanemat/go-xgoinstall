@@ -3,9 +3,10 @@ package xgoinstall
 import (
 	"flag"
 	"fmt"
-	"golang.org/x/xerrors"
 	"io"
 	"log"
+
+	"golang.org/x/xerrors"
 )
 
 const cmdName = "x-go-install"
