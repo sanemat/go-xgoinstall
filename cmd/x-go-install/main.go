@@ -3,13 +3,22 @@ package main
 import (
 	"flag"
 	"github.com/sanemat/go-xgoinstall"
+	"io/ioutil"
 	"log"
 	"os"
 )
 
 func main() {
+	var data []byte
+	var err error
 	log.SetFlags(0)
-	err := xgoinstall.Run(os.Args[1:], os.Stdout, os.Stderr)
+	fi, _ := os.Stdin.Stat()
+	if (fi.Mode() & os.ModeCharDevice) == 0 {
+		data, err = ioutil.ReadAll(os.Stdin)
+		reject(err)
+	}
+
+	err = xgoinstall.Run(os.Args[1:], data, os.Stdout, os.Stderr)
 	reject(err)
 }
 
