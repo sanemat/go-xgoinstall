@@ -9,4 +9,5 @@ import (
 	_ "github.com/motemen/gobump/cmd/gobump"
 	_ "github.com/tcnksm/ghr"
 	_ "golang.org/x/lint/golint"
+	_ "golang.org/x/tools/cmd/goimports"
 )
