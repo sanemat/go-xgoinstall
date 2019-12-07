@@ -2,8 +2,8 @@
 ## [Unreleased]
 
 
-<a name="0.1.0"></a>
-## 0.1.0 - 2019-12-07
+<a name="v0.1.0"></a>
+## v0.1.0 - 2019-12-07
 ### Feat
 - **cli:** detect null on input
 - **cli:** go install data
@@ -17,6 +17,7 @@
 - **main:** exit with code
 
 ### Pull Requests
+- Merge pull request [#15](https://github.com/sanemat/go-xgoinstall/issues/15) from sanemat/chore/changelog
 - Merge pull request [#13](https://github.com/sanemat/go-xgoinstall/issues/13) from sanemat/feat/use-given-stream
 - Merge pull request [#11](https://github.com/sanemat/go-xgoinstall/issues/11) from sanemat/feat/contains-null
 - Merge pull request [#9](https://github.com/sanemat/go-xgoinstall/issues/9) from sanemat/feat/install
@@ -30,4 +31,4 @@
 - Merge pull request [#1](https://github.com/sanemat/go-xgoinstall/issues/1) from sanemat/chore/actions
 
 
-[Unreleased]: https://github.com/sanemat/go-xgoinstall/compare/0.1.0...HEAD
+[Unreleased]: https://github.com/sanemat/go-xgoinstall/compare/v0.1.0...HEAD
