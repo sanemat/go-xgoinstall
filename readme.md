@@ -26,9 +26,9 @@ We can use `xargs` only mac and unix.
 
 `ghg get sanemat/go-xgoinstall`
 
-### go get
+### go install
 
-`go get https://github.com/sanemat/go-xgoinstall/cmd/x-go-install`
+`go install https://github.com/sanemat/go-xgoinstall/cmd/x-go-install`
 
 ## Design
 
