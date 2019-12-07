@@ -15,6 +15,7 @@ require (
 	github.com/tsuyoshiwada/go-gitcmd v0.0.0-20180205145712-5f1f5f9475df // indirect
 	github.com/urfave/cli v1.22.2 // indirect
 	golang.org/x/lint v0.0.0-20191125180803-fdd1cda4f05f
+	golang.org/x/tools v0.0.0-20191125144606-a911d9008d1f
 	golang.org/x/xerrors v0.0.0-20190717185122-a985d3407aa7
 	gopkg.in/AlecAivazis/survey.v1 v1.8.7 // indirect
 	gopkg.in/kyokomi/emoji.v1 v1.5.1 // indirect
