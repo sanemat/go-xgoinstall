@@ -57,13 +57,10 @@ func Run(argv []string, data []byte, outStream, errStream io.Writer) error {
 	}
 	for _, v := range targets {
 		cmd := exec.Command("go", "install", v)
-		stdout, err1 := cmd.Output()
-		if err1 != nil {
-			return err1
-		}
-		_, err2 := fmt.Fprint(outStream, string(stdout))
-		if err2 != nil {
-			return err2
+		cmd.Stdout = outStream
+		cmd.Stderr = errStream
+		if err := cmd.Run(); err != nil {
+			return err
 		}
 	}
 
