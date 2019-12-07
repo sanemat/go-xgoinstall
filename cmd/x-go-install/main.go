@@ -10,6 +10,10 @@ import (
 func main() {
 	log.SetFlags(0)
 	err := xgoinstall.Run(os.Args[1:], os.Stdout, os.Stderr)
+	reject(err)
+}
+
+func reject(err error) {
 	if err != nil && err != flag.ErrHelp {
 		log.Println(err)
 		exitCode := 1
