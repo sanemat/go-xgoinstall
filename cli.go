@@ -50,6 +50,9 @@ func Run(argv []string, data []byte, outStream, errStream io.Writer) error {
 	if *nullTerminators {
 		targets = strings.Split(string(data), "\x00")
 	} else {
+		if strings.Contains(string(data), "\x00") {
+			return xerrors.New("detected null on input. use -0 option")
+		}
 		targets = strings.Fields(string(data))
 	}
 	for _, v := range targets {
