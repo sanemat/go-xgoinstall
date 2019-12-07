@@ -17,6 +17,9 @@
 - **main:** exit with code
 
 ### Pull Requests
+- Merge pull request [#18](https://github.com/sanemat/go-xgoinstall/issues/18) from sanemat/chore/name
+- Merge pull request [#17](https://github.com/sanemat/go-xgoinstall/issues/17) from sanemat/chore/changelog2
+- Merge pull request [#16](https://github.com/sanemat/go-xgoinstall/issues/16) from sanemat/chore/credits
 - Merge pull request [#15](https://github.com/sanemat/go-xgoinstall/issues/15) from sanemat/chore/changelog
 - Merge pull request [#13](https://github.com/sanemat/go-xgoinstall/issues/13) from sanemat/feat/use-given-stream
 - Merge pull request [#11](https://github.com/sanemat/go-xgoinstall/issues/11) from sanemat/feat/contains-null
