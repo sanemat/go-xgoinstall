@@ -10,9 +10,12 @@ import (
 
 func main() {
 	var data []byte
+	var fi os.FileInfo
 	var err error
 	log.SetFlags(0)
-	fi, _ := os.Stdin.Stat()
+	fi, err = os.Stdin.Stat()
+	reject(err)
+
 	if (fi.Mode() & os.ModeCharDevice) == 0 {
 		data, err = ioutil.ReadAll(os.Stdin)
 		reject(err)
