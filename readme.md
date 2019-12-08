@@ -28,7 +28,7 @@ We can use `xargs` only mac and unix.
 
 ### go install
 
-`go install https://github.com/sanemat/go-xgoinstall/cmd/x-go-install`
+`go install github.com/sanemat/go-xgoinstall/cmd/x-go-install`
 
 ## Design
 
