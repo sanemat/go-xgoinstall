@@ -24,6 +24,7 @@ install-tools: download
 goimports:
 	goimports -w .
 
+.PHONY: echo
 echo:
 	echo ${VERSION} ${BUILD_LDFLAGS}
 
