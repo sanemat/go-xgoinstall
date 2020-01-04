@@ -2,6 +2,28 @@
 ## [Unreleased]
 
 
+<a name="v0.1.1"></a>
+## [v0.1.1] - 2020-01-05
+### Refactor
+- **makefile:** credits.txt
+- **makefile:** echo
+- **makefile:** command multiple lines
+- **tools:** move tools.go to tools/tools.go
+
+### Pull Requests
+- Merge pull request [#29](https://github.com/sanemat/go-xgoinstall/issues/29) from sanemat/chore/update-credits
+- Merge pull request [#28](https://github.com/sanemat/go-xgoinstall/issues/28) from sanemat/refactor/tools-go
+- Merge pull request [#27](https://github.com/sanemat/go-xgoinstall/issues/27) from sanemat/refactor/makefile
+- Merge pull request [#26](https://github.com/sanemat/go-xgoinstall/issues/26) from sanemat/chore/dependabot
+- Merge pull request [#25](https://github.com/sanemat/go-xgoinstall/issues/25) from sanemat/chore/yaml
+- Merge pull request [#24](https://github.com/sanemat/go-xgoinstall/issues/24) from sanemat/chore/windows
+- Merge pull request [#23](https://github.com/sanemat/go-xgoinstall/issues/23) from sanemat/chore/use-import-list
+- Merge pull request [#22](https://github.com/sanemat/go-xgoinstall/issues/22) from sanemat/chore/windows
+- Merge pull request [#21](https://github.com/sanemat/go-xgoinstall/issues/21) from sanemat/chore/ignore-binary
+- Merge pull request [#20](https://github.com/sanemat/go-xgoinstall/issues/20) from sanemat/chore/makefile2
+- Merge pull request [#19](https://github.com/sanemat/go-xgoinstall/issues/19) from sanemat/docs/readme
+
+
 <a name="v0.1.0"></a>
 ## v0.1.0 - 2019-12-07
 ### Feat
@@ -34,4 +56,5 @@
 - Merge pull request [#1](https://github.com/sanemat/go-xgoinstall/issues/1) from sanemat/chore/actions
 
 
-[Unreleased]: https://github.com/sanemat/go-xgoinstall/compare/v0.1.0...HEAD
+[Unreleased]: https://github.com/sanemat/go-xgoinstall/compare/v0.1.1...HEAD
+[v0.1.1]: https://github.com/sanemat/go-xgoinstall/compare/v0.1.0...v0.1.1
