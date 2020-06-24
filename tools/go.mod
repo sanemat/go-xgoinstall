@@ -7,7 +7,7 @@ require (
 	github.com/Songmu/goxz v0.6.0
 	github.com/git-chglog/git-chglog v0.0.0-20190923122001-6050f20bcdb0
 	github.com/motemen/gobump v0.0.0-20191229024723-40a93df16ab5
-	github.com/sanemat/go-importlist v0.1.1
+	github.com/sanemat/go-importlist v0.1.2
 	github.com/sanemat/go-xgoinstall v0.1.1
 	github.com/tcnksm/ghr v0.13.0
 	golang.org/x/lint v0.0.0-20191125180803-fdd1cda4f05f
