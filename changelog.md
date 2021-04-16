@@ -2,6 +2,32 @@
 ## [Unreleased]
 
 
+<a name="v0.2.0"></a>
+## [v0.2.0] - 2021-04-16
+
+### Dependencies
+
+- Update dependencies
+
+### Pull Requests
+- Merge pull request [#50](https://github.com/sanemat/go-xgoinstall/issues/50) from sanemat/chore/deps
+- Merge pull request [#49](https://github.com/sanemat/go-xgoinstall/issues/49) from sanemat/chore/deps-tools
+- Merge pull request [#48](https://github.com/sanemat/go-xgoinstall/issues/48) from sanemat/chore/master-main
+- Merge pull request [#47](https://github.com/sanemat/go-xgoinstall/issues/47) from sanemat/chore/deps-chglog
+- Merge pull request [#45](https://github.com/sanemat/go-xgoinstall/issues/45) from sanemat/chore/gox
+- Merge pull request [#43](https://github.com/sanemat/go-xgoinstall/issues/43) from sanemat/chore/actions-v2
+- Merge pull request [#42](https://github.com/sanemat/go-xgoinstall/issues/42) from sanemat/chore/git-chglog
+- Merge pull request [#38](https://github.com/sanemat/go-xgoinstall/issues/38) from sanemat/sanemat-patch-1
+- Merge pull request [#37](https://github.com/sanemat/go-xgoinstall/issues/37) from sanemat/chore/actions-env
+- Merge pull request [#36](https://github.com/sanemat/go-xgoinstall/issues/36) from sanemat/dependabot/go_modules/tools/github.com/Songmu/gocredits-0.2.0
+- Merge pull request [#33](https://github.com/sanemat/go-xgoinstall/issues/33) from sanemat/dependabot/go_modules/tools/github.com/sanemat/go-importlist-0.1.2
+- Merge pull request [#34](https://github.com/sanemat/go-xgoinstall/issues/34) from sanemat/dependabot/go_modules/tools/github.com/Songmu/goxz-0.6.0
+- Merge pull request [#35](https://github.com/sanemat/go-xgoinstall/issues/35) from sanemat/dependabot/go_modules/tools/github.com/sanemat/go-xgoinstall-0.1.1
+- Merge pull request [#32](https://github.com/sanemat/go-xgoinstall/issues/32) from sanemat/sanemat-patch-1
+- Merge pull request [#31](https://github.com/sanemat/go-xgoinstall/issues/31) from sanemat/chore/changelog
+- Merge pull request [#30](https://github.com/sanemat/go-xgoinstall/issues/30) from sanemat/chore/update-tools
+
+
 <a name="v0.1.1"></a>
 ## [v0.1.1] - 2020-01-05
 ### Refactor
@@ -56,5 +82,6 @@
 - Merge pull request [#1](https://github.com/sanemat/go-xgoinstall/issues/1) from sanemat/chore/actions
 
 
-[Unreleased]: https://github.com/sanemat/go-xgoinstall/compare/v0.1.1...HEAD
+[Unreleased]: https://github.com/sanemat/go-xgoinstall/compare/v0.2.0...HEAD
+[v0.2.0]: https://github.com/sanemat/go-xgoinstall/compare/v0.1.1...v0.2.0
 [v0.1.1]: https://github.com/sanemat/go-xgoinstall/compare/v0.1.0...v0.1.1
