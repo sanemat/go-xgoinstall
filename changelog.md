@@ -2,13 +2,43 @@
 ## [Unreleased]
 
 
+<a name="v0.2.1"></a>
+## [v0.2.1] - 2023-04-02
+### Pull Requests
+- Merge pull request [#92](https://github.com/sanemat/go-xgoinstall/issues/92) from sanemat/dependabot/go_modules/tools/golang.org/x/tools-0.7.0
+- Merge pull request [#83](https://github.com/sanemat/go-xgoinstall/issues/83) from sanemat/dependabot/go_modules/tools/github.com/tcnksm/ghr-0.16.0
+- Merge pull request [#91](https://github.com/sanemat/go-xgoinstall/issues/91) from sanemat/dependabot/go_modules/tools/github.com/git-chglog/git-chglog-0.15.4
+- Merge pull request [#82](https://github.com/sanemat/go-xgoinstall/issues/82) from sanemat/dependabot/go_modules/tools/github.com/Songmu/gocredits-0.3.0
+- Merge pull request [#80](https://github.com/sanemat/go-xgoinstall/issues/80) from sanemat/dependabot/go_modules/tools/github.com/tcnksm/ghr-0.15.0
+- Merge pull request [#81](https://github.com/sanemat/go-xgoinstall/issues/81) from sanemat/dependabot/go_modules/tools/github.com/Songmu/goxz-0.9.1
+- Merge pull request [#79](https://github.com/sanemat/go-xgoinstall/issues/79) from sanemat/dependabot/go_modules/tools/golang.org/x/tools-0.1.12
+- Merge pull request [#78](https://github.com/sanemat/go-xgoinstall/issues/78) from sanemat/dependabot/go_modules/tools/golang.org/x/tools-0.1.11
+- Merge pull request [#77](https://github.com/sanemat/go-xgoinstall/issues/77) from sanemat/dependabot/go_modules/tools/github.com/Songmu/goxz-0.8.2
+- Merge pull request [#76](https://github.com/sanemat/go-xgoinstall/issues/76) from sanemat/dependabot/go_modules/tools/golang.org/x/tools-0.1.10
+- Merge pull request [#75](https://github.com/sanemat/go-xgoinstall/issues/75) from sanemat/dependabot/go_modules/tools/golang.org/x/tools-0.1.9
+- Merge pull request [#74](https://github.com/sanemat/go-xgoinstall/issues/74) from sanemat/dependabot/go_modules/tools/github.com/Songmu/goxz-0.8.1
+- Merge pull request [#71](https://github.com/sanemat/go-xgoinstall/issues/71) from sanemat/dependabot/go_modules/tools/github.com/git-chglog/git-chglog-0.15.1
+- Merge pull request [#70](https://github.com/sanemat/go-xgoinstall/issues/70) from sanemat/dependabot/go_modules/tools/golang.org/x/tools-0.1.8
+- Merge pull request [#69](https://github.com/sanemat/go-xgoinstall/issues/69) from sanemat/dependabot/go_modules/tools/golang.org/x/tools-0.1.7
+- Merge pull request [#67](https://github.com/sanemat/go-xgoinstall/issues/67) from sanemat/dependabot/go_modules/tools/golang.org/x/tools-0.1.6
+- Merge pull request [#65](https://github.com/sanemat/go-xgoinstall/issues/65) from sanemat/dependabot/go_modules/tools/github.com/git-chglog/git-chglog-0.15.0
+- Merge pull request [#66](https://github.com/sanemat/go-xgoinstall/issues/66) from sanemat/dependabot/go_modules/tools/golang.org/x/tools-0.1.5
+- Merge pull request [#64](https://github.com/sanemat/go-xgoinstall/issues/64) from sanemat/dependabot/go_modules/tools/golang.org/x/tools-0.1.4
+- Merge pull request [#63](https://github.com/sanemat/go-xgoinstall/issues/63) from sanemat/dependabot/go_modules/tools/github.com/tcnksm/ghr-0.14.0
+- Merge pull request [#62](https://github.com/sanemat/go-xgoinstall/issues/62) from sanemat/dependabot/go_modules/tools/golang.org/x/tools-0.1.3
+- Merge pull request [#61](https://github.com/sanemat/go-xgoinstall/issues/61) from sanemat/dependabot/go_modules/tools/golang.org/x/tools-0.1.2
+- Merge pull request [#60](https://github.com/sanemat/go-xgoinstall/issues/60) from sanemat/dependabot/go_modules/tools/golang.org/x/tools-0.1.1
+- Merge pull request [#59](https://github.com/sanemat/go-xgoinstall/issues/59) from sanemat/sanemat-patch-1
+- Merge pull request [#58](https://github.com/sanemat/go-xgoinstall/issues/58) from sanemat/dependabot/add-v2-config-file
+- Merge pull request [#57](https://github.com/sanemat/go-xgoinstall/issues/57) from sanemat/chore/re-order-tools
+- Merge pull request [#56](https://github.com/sanemat/go-xgoinstall/issues/56) from sanemat/chore/go-sum
+- Merge pull request [#55](https://github.com/sanemat/go-xgoinstall/issues/55) from sanemat/chore/deps-git-chglog
+- Merge pull request [#52](https://github.com/sanemat/go-xgoinstall/issues/52) from sanemat/dependabot/go_modules/tools/github.com/sanemat/go-xgoinstall-0.2.0
+- Merge pull request [#54](https://github.com/sanemat/go-xgoinstall/issues/54) from sanemat/chore/deps-go-importlist
+
+
 <a name="v0.2.0"></a>
 ## [v0.2.0] - 2021-04-16
-
-### Dependencies
-
-- Update dependencies
-
 ### Pull Requests
 - Merge pull request [#50](https://github.com/sanemat/go-xgoinstall/issues/50) from sanemat/chore/deps
 - Merge pull request [#49](https://github.com/sanemat/go-xgoinstall/issues/49) from sanemat/chore/deps-tools
@@ -82,6 +112,7 @@
 - Merge pull request [#1](https://github.com/sanemat/go-xgoinstall/issues/1) from sanemat/chore/actions
 
 
-[Unreleased]: https://github.com/sanemat/go-xgoinstall/compare/v0.2.0...HEAD
+[Unreleased]: https://github.com/sanemat/go-xgoinstall/compare/v0.2.1...HEAD
+[v0.2.1]: https://github.com/sanemat/go-xgoinstall/compare/v0.2.0...v0.2.1
 [v0.2.0]: https://github.com/sanemat/go-xgoinstall/compare/v0.1.1...v0.2.0
 [v0.1.1]: https://github.com/sanemat/go-xgoinstall/compare/v0.1.0...v0.1.1
