@@ -141,8 +141,8 @@ github.com/pmezard/go-difflib v1.0.0 h1:4DBwDE0NGyQoBHbLQYPwSUPoCMWR5BEzIk/f1lZb
 github.com/pmezard/go-difflib v1.0.0/go.mod h1:iKH77koFhYxTK1pcRnkKkqfTogsbg7gZNVY4sRDYZ/4=
 github.com/russross/blackfriday/v2 v2.1.0 h1:JIOH55/0cWyOuilr9/qlrm0BSXldqnqwMsf35Ld67mk=
 github.com/russross/blackfriday/v2 v2.1.0/go.mod h1:+Rmxgy9KzJVeS9/2gXHxylqXiyQDYRxCVz55jmeOWTM=
-github.com/sanemat/go-importlist v0.2.0 h1:nlb+DEoKvSUCdZjWAZEo5AqtvY5AuL29AjeSV+TlSL4=
-github.com/sanemat/go-importlist v0.2.0/go.mod h1:AiasuUg8WtYo6F7vZUvhVh0ACx8aXyi0z2qhES6of4k=
+github.com/sanemat/go-importlist v0.2.1 h1:QuS1TXkD89Xn/udycWe+b3lILrMQv2O8TVMKAMdcyGo=
+github.com/sanemat/go-importlist v0.2.1/go.mod h1:AiasuUg8WtYo6F7vZUvhVh0ACx8aXyi0z2qhES6of4k=
 github.com/shopspring/decimal v1.2.0 h1:abSATXmQEYyShuxI4/vyW3tV1MrKAJzCZ/0zLUXYbsQ=
 github.com/shopspring/decimal v1.2.0/go.mod h1:DKyhrW/HYNuLGql+MJL6WCR6knT2jwCFRcu2hWCYk4o=
 github.com/spf13/cast v1.3.1 h1:nFm6S0SMdyzrzcmThSipiEubIDy8WEXKNZ0UOgiRpng=
