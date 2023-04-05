@@ -6,7 +6,7 @@ require (
 	github.com/Songmu/gocredits v0.3.0
 	github.com/Songmu/goxz v0.9.1
 	github.com/git-chglog/git-chglog v0.15.4
-	github.com/sanemat/go-importlist v0.2.0
+	github.com/sanemat/go-importlist v0.2.1
 	github.com/sanemat/go-xgoinstall v0.2.0
 	github.com/tcnksm/ghr v0.16.0
 	github.com/x-motemen/gobump v0.2.0
